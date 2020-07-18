@@ -1,14 +1,27 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Key Features Initial deploy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jessicajernigan",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicajernigan/week9-challenge_readme-file-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/jessicajernigan/week9-challenge_readme-file-generator/issues"
+  },
+  "homepage": "https://github.com/jessicajernigan/week9-challenge_readme-file-generator#readme"
 }
