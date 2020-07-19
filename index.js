@@ -68,7 +68,7 @@ const promptUser = () => {
       type: 'list',
       name: 'license',
       message: 'What did you this project with? (Check all that apply)',
-      choices: ['Apache 2.0', 'Boost Software License 1.0', 'BSD 3-Clause License', 'CC0', 'Eclipse Public License 1.0', 'GNU GPL v3', 'The MIT License','Mozilla Public License 2.0'],
+      choices: ['Apache 2.0', 'PDDL', 'CC0', 'Unlicense', 'MPL 2.0', 'MIT'],
       when: ({ confirmLicense }) => confirmLicense,
       validate: license => {
         if (license) {
