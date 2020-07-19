@@ -65,11 +65,19 @@ const promptUser = () => {
       default: true
     },
     {
-      type: 'checkbox',
+      type: 'list',
       name: 'license',
       message: 'What did you this project with? (Check all that apply)',
       choices: ['Apache 2.0', 'Boost Software License 1.0', 'BSD 3-Clause License', 'CC0', 'Eclipse Public License 1.0', 'GNU GPL v3', 'The MIT License','Mozilla Public License 2.0'],
       when: ({ confirmLicense }) => confirmLicense,
+      validate: license => {
+        if (license) {
+          return true;
+        } else {
+          console.log('You must select a license!');
+          return false;
+        }
+      }
     },
     {
       type: 'input',
