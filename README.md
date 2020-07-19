@@ -1,21 +1,26 @@
-# TEST TEST  
-  ### Description  
+# let's try saving this time  
+  ## Description  
 
-  ### Table of Contents
-  (anchor links to sections below)
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
   
-  ### Installation 
+  ## Installation  
+  instructions 
 
-  ### Usage
+  ## Usage
 
-  ### License  
+  ## License  
+  * anotherLicense
   (explanations of licenses the application is covered under - corresponding to badges at the top of the README)
 
-  ### Contributing
+  ## Contributing
 
-  ### Tests  
+  ## Tests  
 
-  ### Questions
+  ## Questions
   Please direct all inquiries to (link to Github profile based on username entered) at:
   (email address)
 

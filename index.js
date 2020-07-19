@@ -32,10 +32,30 @@ const promptUser = () => {
       when: ({ confirmInstall }) => confirmInstall
     },
     {
+      type: 'input',
+      name: 'usage',
+      message: 'Please provide usage instructions for your project: (REQUIRED)',
+      validate: title => {
+        if (title) {
+          return true;
+        } else {
+          console.log('Every project needs a title!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'confirm',
+      name: 'confirmLicense',
+      message: 'Would you like to apply a license?',
+      default: true
+    },
+    {
       type: 'checkbox',
-      name: 'languages',
+      name: 'license',
       message: 'What did you this project with? (Check all that apply)',
-      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+      choices: ['MIT', 'anotherLicense', 'AThirdLicense'],
+      when: ({ confirmLicense }) => confirmLicense
     },
     {
       type: 'input',
