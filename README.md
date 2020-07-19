@@ -1,4 +1,4 @@
-# let's try saving this time  
+# khjg  
   ## Description  
 
   ## Table of Contents
@@ -8,12 +8,12 @@
   * [License](#license)
   
   ## Installation  
-  instructions 
+  jhg 
 
   ## Usage
 
   ## License  
-  * anotherLicense
+  * MIT
   (explanations of licenses the application is covered under - corresponding to badges at the top of the README)
 
   ## Contributing
@@ -21,6 +21,7 @@
   ## Tests  
 
   ## Questions
-  Please direct all inquiries to (link to Github profile based on username entered) at:
-  (email address)
+  Please direct all inquiries to [jhg](https://github.com/jhg) via email at:  
+
+  kjgh
 
