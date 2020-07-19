@@ -21,6 +21,19 @@ const promptUser = () => {
     },
     {
       type: 'input',
+      name: 'description',
+      message: 'Please provide a brief description of your project. (REQUIRED)',
+      validate: title => {
+        if (title) {
+          return true;
+        } else {
+          console.log('Wait! We still don\'t know what your project does!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
       name: 'installation',
       message: 'Please add some installation instructions. (REQUIRED)',
       validate: installation => {
@@ -56,7 +69,7 @@ const promptUser = () => {
       name: 'license',
       message: 'What did you this project with? (Check all that apply)',
       choices: ['Apache 2.0', 'Boost Software License 1.0', 'BSD 3-Clause License', 'CC0', 'Eclipse Public License 1.0', 'GNU GPL v3', 'The MIT License','Mozilla Public License 2.0'],
-      when: ({ confirmLicense }) => confirmLicense
+      when: ({ confirmLicense }) => confirmLicense,
     },
     {
       type: 'input',
@@ -112,8 +125,6 @@ const promptUser = () => {
     }
   ])
 };
-
-
 
 const writeFile = data => {
   return new Promise((resolve, reject) => {
