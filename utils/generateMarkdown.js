@@ -13,19 +13,24 @@ function generateMarkdown(data) {
   ${data.installation} 
 
   ## Usage
+  ${data.usage} 
 
-  ## License  
-  * ${data.license}
-  (explanations of licenses the application is covered under - corresponding to badges at the top of the README)
+  ## License(s)  
+  ${data.license.join(`  
+  `
+  )}
 
-  ## Contributing
+
+  ## Contribution Guidelines
+  ${data.contribution} 
 
   ## Tests  
+  ${data.tests}
 
   ## Questions
   Please direct all inquiries to [${data.github}](https://github.com/${data.github}) via email at:  
 
-  ${data.email}
+  [${data.email}](mailto:${data.email}?subject=Question%20About%20${data.title.split(' ').join('%20')})
 
 `;
 }

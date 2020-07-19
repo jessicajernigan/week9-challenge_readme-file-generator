@@ -22,7 +22,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'installation',
-      message: 'Add some installation instructions:',
+      message: 'Please add some installation instructions. (REQUIRED)',
       validate: installation => {
         if (installation) {
           return true;
@@ -55,8 +55,34 @@ const promptUser = () => {
       type: 'checkbox',
       name: 'license',
       message: 'What did you this project with? (Check all that apply)',
-      choices: ['MIT', 'anotherLicense', 'AThirdLicense'],
+      choices: ['Apache 2.0', 'Boost Software License 1.0', 'BSD 3-Clause License', 'CC0', 'Eclipse Public License 1.0', 'GNU GPL v3', 'The MIT License','Mozilla Public License 2.0'],
       when: ({ confirmLicense }) => confirmLicense
+    },
+    {
+      type: 'input',
+      name: 'contribution',
+      message: 'What are the contribution guidelines for this project?',
+      validate: installation => {
+        if (installation) {
+          return true;
+        } else {
+          console.log('Please add contribution guidelines!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Please add testing guidelines. (REQUIRED)',
+      validate: githubInput => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log('Ahem... please add testing guidelines for your project.');
+          return false;
+        }
+      }
     },
     {
       type: 'input',

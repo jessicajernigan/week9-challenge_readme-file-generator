@@ -1,4 +1,4 @@
-# khjg  
+# A Most Excellent Project  
   ## Description  
 
   ## Table of Contents
@@ -8,20 +8,24 @@
   * [License](#license)
   
   ## Installation  
-  jhg 
+  Installation goes like this... 
 
   ## Usage
+  Use it like this... 
 
-  ## License  
-  * MIT
-  (explanations of licenses the application is covered under - corresponding to badges at the top of the README)
+  ## License(s)  
+  Apache 2.0  
+  Mozilla Public License 2.0
 
-  ## Contributing
+
+  ## Contribution Guidelines
+  Don't ruin stuff! 
 
   ## Tests  
+  Test it this way
 
   ## Questions
-  Please direct all inquiries to [jhg](https://github.com/jhg) via email at:  
+  Please direct all inquiries to [jessicajernigan](https://github.com/jessicajernigan) via email at:  
 
-  kjgh
+  [jernigan.jessica.leigh@gmail.com](mailto:jernigan.jessica.leigh@gmail.com?subject=Question%20About%20A%20Most%20Excellent%20Project)
 
