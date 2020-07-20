@@ -1,35 +1,27 @@
-# The Title
-  
-![license](https://img.shields.io/badge/license-MIT-green)
+# README Generator
 
   ## Table of Contents
   * [Description](#description)
-  * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contribution Guidelines](#contribution-guidelines)
-  * [Tests](#tests)
   * [Questions](#questions)
   
 
   ## Description  
-  Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
-
-  ## Installation  
-  Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
+  Don't let another README file be an afterthought that you rush to tack onto the end of a project. This handy command-line-based README generator application will not only prompt you for the key details that any great README file should offer, but formats your answers into a professional-looking end product that will impress your future users as much as it educates them. 
 
   ## Usage
-  Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
+  * Initialize the application with the command ```node index```
+  * Follow the prompts to enter key details about your project (e.g. 'Description', 'Installtion', etc...)
+  * Enter your Github username (which will be linked in the file) and an email address for users to contact you with questions
+  * Your custom README file will be generated in the ```README-generated.md``` file
 
-  ## License
-  This project is covered under MIT.
 
   ## Contribution Guidelines
-  Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
+  Please see the [The Contributor Covenant](https://www.contributor-covenant.org/)
 
-  ## Tests  
-  Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions.
 
   ## Questions
-  Please direct all inquiries to [jessicajernigan](https://github.com/jessicajernigan) via email at: [jernigan.jessica.leigh@gmail.com](mailto:jernigan.jessica.leigh@gmail.com?subject=Question%20About%20The%20Title)
+  Please direct all inquiries to [jessicajernigan](https://github.com/jessicajernigan) via email at: [jernigan.jessica.leigh@gmail.com](mailto:jernigan.jessica.leigh@gmail.com)
 

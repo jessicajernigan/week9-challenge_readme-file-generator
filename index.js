@@ -126,9 +126,10 @@ const promptUser = () => {
   ])
 };
 
+
 const writeFile = data => {
   return new Promise((resolve, reject) => {
-    fs.writeFile('./README.md', data, err => {
+    fs.writeFile('./README-generated.md', data, err => {
       if (err) {
         reject(err);
         return;
@@ -141,11 +142,6 @@ const writeFile = data => {
   });
 };
 
-// function to initialize program
-// function init() {
-
-// }
-
 
 promptUser()
   .then(projectData => {
@@ -157,9 +153,3 @@ promptUser()
   .catch(err => {
     console.log(err);
   });
-// console.log("Your README has been generated!");
-
-
-
-// function call to initialize program
-// init();
