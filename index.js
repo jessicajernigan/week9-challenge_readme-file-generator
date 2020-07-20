@@ -67,17 +67,9 @@ const promptUser = () => {
     {
       type: 'list',
       name: 'license',
-      message: 'What did you this project with? (Check all that apply)',
+      message: 'Select a license from the options below.',
       choices: ['Apache 2.0', 'PDDL', 'CC0', 'Unlicense', 'MPL 2.0', 'MIT'],
-      when: ({ confirmLicense }) => confirmLicense,
-      validate: license => {
-        if (license) {
-          return true;
-        } else {
-          console.log('You must select a license!');
-          return false;
-        }
-      }
+      when: ({ confirmLicense }) => confirmLicense
     },
     {
       type: 'input',
