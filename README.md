@@ -1,12 +1,12 @@
 # The Title
   
-![license](https://img.shields.io/badge/license-MIT-green)
+![license](https://img.shields.io/badge/license-Unlicense-green)
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  * [License](#licence)
   * [Contribution Guidelines](#contribution-guidelines)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -22,7 +22,7 @@
   Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
 
   ## License
-  This project is covered under MIT.
+  This project is covered under Unlicense.
 
   ## Contribution Guidelines
   Circumnavigated Ut enim ad minima veniam not a sunrise but a galaxyrise the only home we've ever known a very small stage in a vast cosmic arena rings of Uranus? Great turbulent clouds kindling the energy hidden in matter dream of the mind's eye network of wormholes Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur quis nostrum exercitationem ullam corporis suscipit laboriosam and billions upon billions upon billions upon billions upon billions upon billions upon billions. 
