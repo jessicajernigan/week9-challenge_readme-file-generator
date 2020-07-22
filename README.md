@@ -9,7 +9,7 @@
   
 
   ## Description  
-  Don't let another README file be an afterthought that you rush to tack onto the end of a project. This handy command-line-based README generator application will not only prompt you for the key details that any great README file should offer, but formats your answers into a professional-looking end product that will impress your future users as much as it educates them. 
+  Don't let another README file be an afterthought that you rush to tack onto the end of a project. This handy command-line-based README generator application not only prompts you for key details that any great README file should contain, but formats your answers into a professional-looking end product that will impress your future users as much as it educates them. 
 
   ## Usage
   * Initialize the application with the command ```node index```
