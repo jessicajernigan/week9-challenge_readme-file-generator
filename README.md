@@ -16,6 +16,7 @@
   * Follow the prompts to enter key details about your project (e.g. 'Description', 'Installtion', etc...)
   * Enter your Github username (which will be linked in the file) and an email address for users to contact you with questions
   * Your custom README file will be generated in the ```README-generated.md``` file
+  * Still unsure how to proceed? Check out [this handy video tutorial.](https://share.getcloudapp.com/7Kum5EOy) 
 
 
   ## Contribution Guidelines
